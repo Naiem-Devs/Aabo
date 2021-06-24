@@ -1,0 +1,982 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+    img#blog_bg2 {
+        width: 76%;
+    }
+    
+    .rate_img {
+        right: -6%;
+    }
+    
+    header {
+        background-position-x: center;
+    }
+    .container {
+        width: 1170px;
+    }  
+    section.Blog {
+        overflow: hidden;
+    } 
+    section.Contact{
+    overflow: hidden;
+}
+    .contact_phon2 {
+        top: 82%;
+    }
+    
+    .contact_phon {
+        top: 230px;
+        width: 70%;
+        left: 70%;
+    }
+    
+    .contact_pen {
+        left: 102%;
+        top: 63%;
+    }
+    .vc_logo {
+        left: 9%;
+    }
+    
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .p_100{padding: 70px 0;}
+    /* default css end */
+    
+    /*_____ Section Title Start______ */
+    .sec_title h1{
+    font-size: 35px;
+    margin-bottom: 25px;
+    line-height: 45px;
+}
+    .sec_title p{
+    font-size: 14px;
+    line-height: 26px;
+}
+    
+    .serial {
+    width: 60px;
+    margin-bottom: 30px;
+}
+    .serial img{
+    width: 100%;
+    left: 48%;
+}
+.monitor .serial img{
+    left: 2px;
+}
+    .serial h4{
+    font-size: 20px;
+}
+    
+    .af_btm:after {
+    bottom: -54px;
+    width: 70px;
+}
+    /*_____ Section Title End______ */
+    
+    /*Header Section css Start ===========*/
+    header{
+    background-position-x: center;
+}
+    .header_left {margin-top: 100px;}
+    .header_left h1{font-size: 40px;margin-bottom: 50px;}
+    .header_left a img{
+    width: 200px;
+}
+.header_btn a img{
+    width: 160px;
+}
+    
+    .header_btn{
+    display: flex;
+}
+    
+    .header_right{
+    width: 100%;
+}
+    .header_right img{
+    width: 80%;
+}
+    /*Header Section css end ===========*/
+    
+    
+    
+    
+    
+    /*Blog Section css Start ===========*/
+    
+    .blog_img img{width: 225px;}
+    img#blog_bg{
+    width: 90%;
+}
+img#blog_bg2{
+    width: 60%;
+    /* left: 0; */
+}
+img#blog2{
+    width: 250px;
+}
+    img#blog_bg3{
+    width: 90%;
+}
+    .blog_cont{margin-top: 0;}
+    /*Blog Section css end ===========*/
+    
+    
+    
+    /*Monitoring Section css Start ===========*/
+    
+    .monitor_right {
+    width: 300px;
+}
+    .monitor_right img{
+    width: 100%;
+}
+    
+    .rate_img{
+    right: -50px;
+}
+    .rate_img img{
+    width: 170px;
+    margin-bottom: 40px;
+}
+    /*Monitoring Section css end ===========*/
+    
+    
+    
+    
+    /*Payment Section css Start ===========*/
+    
+    
+    
+    /*Payment Section css end ===========*/
+    
+    
+    
+    
+    /*Contact Section css Start ===========*/
+    
+    section.Contact{
+    overflow: hidden;
+}
+    
+    .contact_phon {
+    top: 180px;
+    left: 65%;
+}
+    .contact_phon2 {bottom: -117px;}
+    /*Contact Section css end ===========*/
+    
+    
+    
+    
+    /*Video_Call Section css Start ===========*/
+    section.Video_Call{
+    padding-top: 100px;
+}
+    
+    .vc_sec{
+    margin-left: 0;
+}
+.vc_snap {
+    left: 120%;
+    z-index: -2;
+}
+    
+    .vc_left img{
+    width: 100%;
+}
+    
+    .vc_logo {
+    width: 100px;
+    left: 30px;
+}
+    /*Video_Call Section css end ===========*/
+    
+    
+    
+    
+    /*Schedul Section css Start ===========*/
+    
+    .schedul_sec{
+    margin-top: 100px;
+}
+    
+    .schedul_right {}
+    .schedul_right img{
+    width: 100%;
+}
+    
+    /*Schedul Section css end ===========*/
+    
+    
+    
+    
+    /*earn Section css Start ===========*/
+    .earn_left img{
+    width: 280px;
+}
+    
+    .graphs {}
+    .graphs img{}
+    
+    .earn_bg {top: -40%;right: 22%;transform: rotateZ(216deg) translate(-50%, -50%);}
+    .earn_bg img{
+    width: 85%;
+}
+    
+    /*earn Section css end ===========*/
+    
+    
+    
+    /*Footer Section css Start ===========*/
+    footer{
+    overflow: hidden;
+}
+    
+    .footer_cont img{width: 100px;}
+    .footer_cont p{
+    font-size: 20px;
+}
+    img#f_circle{
+    width: 65%;
+}
+    
+    .footer_bg {top: 26%;}
+    .footer_bg img{
+    width: unset;
+}
+    
+    .f_logo{
+    width: 50px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+    .f_logo img{
+    width: 100%;
+}
+    
+    .f_apps_btn img{
+    margin: auto;
+    width: 130px;
+    border-radius: 5px;
+}
+    /*Footer Section css end ===========*/
+    
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+    .p_100{padding: 50px 0;}
+    /* default css end */
+    
+    /*_____ Section Title Start______ */
+    .sec_title h1{
+    font-size: 24px;
+    margin-bottom: 15px;
+    line-height: 33px;
+}
+    .sec_title p{
+    font-size: 11px;
+    line-height: 22px;
+}
+    
+    .serial {
+    width: 50px;
+    margin-bottom: 20px;
+}
+    .serial img{
+    width: 100%;
+    left: 48%;
+}
+.monitor .serial img{
+    left: 2px;
+}
+    .serial h4{
+    font-size: 15px;
+}
+    
+    .af_btm:after {
+    bottom: -35px;
+    width: 50px;
+}
+    /*_____ Section Title End______ */
+    
+    /*Header Section css Start ===========*/
+    header{
+    background-position-x: center;
+    padding: 0 !important;
+}
+    .header_left {margin-top: 100px;margin-left: 75px;}
+    .header_left h1{font-size: 30px;margin-bottom: 35px;}
+    .header_left a img{
+    width: 150px;
+    margin-bottom: 30px;
+}
+.header_btn a img{
+    width: 120px;
+}
+    
+    .header_btn{
+    display: flex;
+}
+    
+    .header_right{
+    width: 350px;
+}
+    .header_right img{
+    width: 85%;
+}
+    /*Header Section css end ===========*/
+    
+    
+    
+    
+    
+    /*Blog Section css Start ===========*/
+    section.Blog{
+    padding-bottom: 0;
+}
+    
+    .blog_img img{width: 155px;}
+    img#blog_bg{
+    width: 80%;
+}
+img#blog_bg2{
+    width: 50%;
+    /* left: 0; */
+}
+img#blog2{
+    width: 173px;
+}
+    img#blog_bg3{
+    width: 80%;
+    left: 43%;
+}
+    .blog_cont{margin-top: 0;}
+    /*Blog Section css end ===========*/
+    
+    
+    
+    /*Monitoring Section css Start ===========*/
+    section.Monitoring{
+    padding-top: 70px;
+}
+    .monitor_right {
+    width: 225px;
+}
+    .monitor_right img{
+    width: 100%;
+}
+    
+    .rate_img{
+    right: -50px;
+}
+    .rate_img img{
+    width: 120px;
+    margin-bottom: 40px;
+}
+    /*Monitoring Section css end ===========*/
+    
+    
+    
+    
+    /*Payment Section css Start ===========*/
+    
+    .payment_sec p{
+    width: 90%;
+    margin: auto;
+}
+    .payment_sec.af_btm:after{
+    bottom: -38px;
+}
+    .payment_img {text-align: center;}
+    .payment_img img{
+    width: 600px;
+    margin: auto;
+}
+    
+    .pay_left {
+    width: 300px;
+    right: 200px;
+}
+    .pay_left img{
+    width: 300px;
+    margin: unset;
+}
+    
+    .pay_right {
+    width: 50%;
+    right: -199px;
+}
+    .pay_right img{
+    width: 300px;
+}
+    /*Payment Section css end ===========*/
+    
+    
+    
+    
+    /*Contact Section css Start ===========*/
+    section.Contact{
+    background-position-x: 60%;
+    padding: 0;
+}
+    
+    .contact{
+    margin-left: 30px;
+}
+    section.Contact{
+    overflow: hidden;
+}
+    
+    .contact_phon {
+    top: 149px;
+    left: 61%;
+}
+    .contact_phon img{
+    width: 300px;
+}
+    .contact_phon2 {bottom: -122px;left: 147px;}
+    .contact_phon2 img{
+    width: 300px;
+}
+    /*Contact Section css end ===========*/
+    
+    
+    
+    
+    /*Video_Call Section css Start ===========*/
+    section.Video_Call{
+    padding-top: 51px;
+}
+    
+    .vc_sec{
+    margin-left: 0;
+}
+.vc_snap {
+    left: 120%;
+    z-index: -2;
+}
+    
+    .vc_left img{
+    width: 100%;
+}
+    
+    .vc_logo {
+    width: 70px;
+    left: 30px;
+}
+    /*Video_Call Section css end ===========*/
+    
+    
+    
+    
+    /*Schedul Section css Start ===========*/
+    
+    .schedul_sec{
+    margin-top: 15px;
+}
+    
+    .schedul_right img{
+    width: 260px;
+}
+    
+    .sd_snap1 {left: 100px;top: 111px;}
+    .sd_snap1 img{
+    width: 100px;
+}
+    .sd_snap2 {
+    right: 19px;
+}
+    .sd_snap2 img{
+    width: 100px;
+}
+    /*Schedul Section css end ===========*/
+    
+    
+    
+    
+    /* Section css Start ===========*/
+    section.Earning{padding-top: 50px;}
+    
+    .earn_sec{
+    margin-top: 20px;
+}
+    .earn_sec.af_btm:after {
+    bottom: -30px;
+}
+    .earn_left img{
+    width: 180px;
+}
+    
+    
+    .earn_bg {top: -62%;right: 41%;transform: rotateZ(216deg) translate(-50%, -50%);}
+    .earn_bg img{
+    width: 325px;
+}
+    
+    /* Section css end ===========*/
+    
+    
+    
+    /*Footer Section css Start ===========*/
+    footer{
+    overflow: hidden;
+}
+    .footer_cont img{width: 75px;}
+    .footer_cont p{
+    margin-top: 10px;
+    font-size: 15px;
+}
+    img#f_circle{
+    width: 135px;
+}
+    
+    .footer_bg {top: 26%;width: 100%;margin: auto;}
+    .footer_bg img{
+    width: 100%;
+}
+    
+    .f_logo{
+    width: 50px;
+    margin: auto;
+    margin-bottom: 11px;
+}
+    .f_logo img{
+    width: 100%;
+}
+    
+    .f_apps_btn {
+    width: 230px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+    .f_apps_btn img{
+    margin: auto;
+    width: 106px;
+    border-radius: 5px;
+}
+    /*Footer Section css end ===========*/
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+    .p_100{padding: 50px 0;}
+    /* default css end */
+    
+    /*_____ Section Title Start______ */
+    .sec_title {}
+    .sec_title h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+    .sec_title p{
+    font-size: 10px;
+    line-height: 20px;
+}
+    .sec_w{}
+    .sec_w{}
+    
+    .serial {
+    width: 40px;
+    margin-bottom: 20px;
+}
+    .serial img{
+    width: 100%;
+    left: 48%;
+}
+.monitor .serial img{
+    left: 2px;
+}
+    .serial h4{
+    font-size: 12px;
+}
+    
+    .af_btm {}
+    .af_btm:after {
+    bottom: -35px;
+    width: 50px;
+}
+    /*_____ Section Title End______ */
+    
+    /*Header Section css Start ===========*/
+    header{
+    background-position-x: center;
+    padding: 0 !important;
+}
+    .header_left {margin-top: 38px;margin-bottom: 30px;text-align: center;}
+    .header_left h1{font-size: 24px;margin-bottom: 35px;}
+    .header_left a img{
+    width: 150px;
+    margin-bottom: 30px;
+}
+.header_btn a img{
+    width: 100px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+    
+    .header_snap{
+    display: none;
+}
+    .header_btn{
+    display: block;
+}
+    
+    .header_right{
+    width: 100% !important;
+}
+    .header_right img{
+    width: 100%;
+}
+    /*Header Section css end ===========*/
+    
+    
+    
+    
+    
+    /*Blog Section css Start ===========*/
+    section.Blog{
+    padding-bottom: 0px;
+}
+    
+    .blog_img{}
+    .blog_img img{width: 155px;}
+    img#blog_bg{
+    width: 80%;
+}
+img#blog_bg2{
+    width: 50%;
+    /* left: 0; */
+}
+img#blog2{
+    width: 173px;
+}
+    img#blog_bg3{
+    width: 80%;
+    left: 43%;
+}
+    .blog_cont{margin-top: 0;}
+    /*Blog Section css end ===========*/
+    
+    
+    
+    /*Monitoring Section css Start ===========*/
+    section.Monitoring{
+    padding-top: 50px;
+}
+    
+    .monitor_right {
+    width: 225px;
+}
+    .monitor_right img{
+    width: 100%;
+}
+    
+    .monitor{}
+    .rate_img{
+    right: -15px;
+}
+    .rate_img img{
+    width: 120px;
+    margin-bottom: 40px;
+}
+    /*Monitoring Section css end ===========*/
+    
+    
+    
+    
+    /*Payment Section css Start ===========*/
+    section.Payment{}
+    
+    .payment_sec p{
+    width: 90%;
+    margin: auto;
+}
+    .payment_sec.af_btm:after{
+    bottom: -38px;
+}
+    .payment_img {text-align: center;}
+    .payment_img img{
+    width: 100%;
+    margin: auto;
+}
+    
+    .pay_left {
+    width: 100px;
+    left: 10%;
+}
+    .pay_left img{
+    width: 230px;
+    margin: unset;
+}
+    
+    .pay_right {display: none;}
+    .pay_right img{
+}
+    /*Payment Section css end ===========*/
+    
+    
+    
+    
+    /*Contact Section css Start ===========*/
+    section.Contact{
+    background-position-x: 60%;
+    padding: 0;
+}
+    
+    .contact{
+    margin-left: 30px;
+}
+    section.Contact{
+    overflow: hidden;
+}
+    .contact_right {}
+    
+    .contact_phon {
+    top: 121px;
+    left: 37%;
+}
+    .contact_phon img{
+    width: 230px;
+}
+    .contact_phon2 {bottom: -96px;left: 10px;}
+    .contact_phon2 img{
+    width: 229px;
+}
+    .contact_pen img{
+    width: 100px;
+}
+.contact_pen{
+    left: 160%;
+    top: 67%;
+}
+    /*Contact Section css end ===========*/
+    
+    
+    
+    
+    /*Video_Call Section css Start ===========*/
+    section.Video_Call{
+    padding-top: 1px;
+}
+    
+    .vc_sec{
+    margin-left: 0;
+}
+.vc_snap {
+    left: 120%;
+    z-index: -2;
+}
+    
+    .vc_left {}
+    .vc_left img{
+    width: 100%;
+    position: absolute;
+    top: 84px;
+}
+    
+    .vc_logo {
+    width: 70px;
+    left: 30px;
+}
+    .vc_logo img{}
+    /*Video_Call Section css end ===========*/
+    
+    
+    
+    
+    /*Schedul Section css Start ===========*/
+    section.Schedul {}
+    
+    .schedul_sec{
+    margin-top: 15px;
+}
+    
+    .schedul_right {}
+    .schedul_right img{
+    width: 260px;
+}
+    
+    .sd_snap1 {left: 100px;top: 111px;}
+    .sd_snap1 img{
+    width: 100px;
+}
+    .sd_snap2 {
+    right: 19px;
+}
+    .sd_snap2 img{
+    width: 100px;
+}
+    /*Schedul Section css end ===========*/
+    
+    
+    
+    
+    /* Section css Start ===========*/
+    section.Earning{padding-top: 50px;}
+    
+    .earn_sec{
+    margin-top: 20px;
+}
+    .earn_sec.af_btm:after {
+    bottom: -30px;
+}
+    .earn_left img{
+    width: 180px;
+}
+    
+    .graphs {}
+    .graphs img{}
+    
+    .earn_bg {top: -62%;right: 41%;transform: rotateZ(216deg) translate(-50%, -50%);}
+    .earn_bg img{
+    width: 325px;
+}
+    
+    .earn_snap {}
+    .earn_snap img{}
+    
+    .earn_snap2 {}
+    .earn_snap2 img{}
+    
+    .earn_snap3 {}
+    .earn_snap3 img{}
+    /* Section css end ===========*/
+    
+    
+    
+    /*Footer Section css Start ===========*/
+    footer{
+    overflow: hidden;
+    margin-top: -50px;
+}
+    .footer_cont{}
+    
+    .footer_cont {}
+    .footer_cont img{width: 75px;}
+    .footer_cont p{
+    margin-top: 10px;
+    font-size: 15px;
+}
+    img#f_circle{
+    width: 100px;
+}
+    
+    .footer_bg {top: 110px;width: 583px;margin: auto;}
+    .footer_bg img{
+    width: 100%;
+}
+    
+    .f_logo{
+    width: 50px;
+    margin: auto;
+    margin-bottom: 11px;
+}
+    .f_logo img{
+    width: 100%;
+}
+    
+    .f_apps_btn {
+    width: 230px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+    .f_apps_btn img{
+    margin: auto;
+    width: 106px;
+    border-radius: 5px;
+}
+    /*Footer Section css end ===========*/
+
+    
+    
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+.container {width:450px}
+header{}
+.payment_img img {
+    width: 430px;
+    margin: auto;
+}
+.header_left{
+    text-align: left;
+}
+.header_right {
+    width: 60%;
+}
+
+}
+
+@media (max-width: 575px) {
+    .blog_p_ab{
+    position: absolute;
+    top: 430px;
+}
+    .mrgin_bottm{
+    margin-bottom: 320px;
+    margin-top: 80px;
+}
+    .blog_p_re{
+    position: relative;
+}
+section.Blog {
+    padding-bottom: 50px;
+}
+.monitor_right {
+    margin: auto;
+    margin-top: 50px;
+}
+.sec_title.af_btm.vc_sec {margin-top: -312px;}
+
+section.Video_Call {
+    height: 680px;
+}
+
+.vc_left {
+    margin-top: 230px;
+    padding-bottom: 70px;
+}
+.sec_title.af_btm.schedul_sec {
+    margin-bottom: 65px;
+}
+.sec_title.af_btm.schedul_sec {
+    margin-bottom: 65px;
+}
+
+.earn_left {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.earn_bg {
+    right: 48px;
+}
+.footer_bg {
+    width: 413px;
+    top: 145px;
+}
+
+footer {
+    margin-top: -50px;
+}
+
+}

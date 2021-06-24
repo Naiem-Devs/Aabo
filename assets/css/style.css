@@ -1,0 +1,637 @@
+/*
+  Theme Name: Name - Multipurpose HTML Template
+  Author: dnsnaiem@gmail.com
+  Support: admin@gmail.com
+  Description: Creative  HTML5 template.
+  Version: 1.0
+*/
+
+/* CSS Index
+-----------------------------------
+1. Theme default css
+2. header
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. footer
+*/
+
+
+
+/* 1. Theme default css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+/* font family
+font-family: 'Montserrat', sans-serif;
+*/
+
+ body {
+	 color: #4e5258;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+.img {
+	max-width: 100%;
+	transition: all 0.3s ease-out 0s;
+}
+.f-left {
+	float: left
+}
+.f-right {
+	float: right
+}
+.fix {
+	overflow: hidden
+}
+a,
+.button {
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+a:focus,
+.button:focus {
+	text-decoration: none;
+	outline: none;
+}
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
+	color: #2B96CC;
+	text-decoration: none;
+}
+a,
+button {
+	color: #1696e7;
+	outline: medium none;
+}
+button:focus,input:focus,input:focus,textarea,textarea:focus{outline: 0}
+.uppercase {
+	text-transform: uppercase;
+}
+.capitalize {
+	text-transform: capitalize;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Montserrat', sans-serif;
+	color: #24282e;
+	margin-bottom: 15px;
+	font-style: normal;
+	font-weight: 700;
+	text-transform: normal;
+}
+
+
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	color: inherit;
+}
+h1 {
+	font-size: 40px;
+}
+h2 {
+	font-size: 35px;
+}
+h3 {
+	font-size: 28px;
+}
+h4 {
+	font-size: 24px;
+}
+h5 {
+	font-size: 18px;
+}
+h6 {
+	font-size: 16px;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+li {
+	list-style: none
+}
+p {
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #4e5258;
+	margin-bottom: 15px;
+}
+hr {
+	border-bottom: 1px solid #eceff8;
+	border-top: 0 none;
+	margin: 30px 0;
+	padding: 0;
+}
+label {
+	cursor: pointer;
+}
+*::-moz-selection {
+	background: #d6b161;
+	color: #fff;
+	text-shadow: none;
+}
+::-moz-selection {
+	background: #444;
+	color: #fff;
+	text-shadow: none;
+}
+::selection {
+	background: #444;
+	color: #fff;
+	text-shadow: none;
+}
+*::-moz-placeholder {
+	color: #555555;
+	font-size: 14px;
+	opacity: 1;
+}
+*::placeholder {
+	color: #555555;
+	font-size: 14px;
+	opacity: 1;
+}
+
+.separator {
+	border-top: 1px solid #f2f2f2
+}
+.p_100{padding: 100px 0;}
+.text_center{text-align: center;margin: auto;}
+/* default css end */
+.container {
+    max-width: 1330px !important;
+}
+
+/*_____ Section Title Start______ */
+.sec_title {}
+.sec_title h1{
+    line-height: 56px;
+    margin-bottom: 40px;
+}
+.sec_title p{
+    line-height: 30px;
+}
+.af_btm.sec_w:after{
+    background: #fff;
+}
+.sec_w h4, .sec_w h1, .sec_w p{
+    color: #fff !important;
+}
+
+.serial {
+    text-align: center;
+    width: 70px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 50px;
+    margin-left: 5px;
+}
+.serial img{
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+.serial h4{
+    color: #8e9aac;
+}
+
+.af_btm {
+    position: relative;
+}
+.af_btm:after {
+    content: "";
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    width: 80px;
+    height: 5px;
+    background: #ec6f6f;
+}
+/*_____ Section Title End______ */
+
+/*Header Section css Start ===========*/
+header{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header_left {position: relative;margin-top: 200px;}
+.header_left h1{font-size: 60px;font-weight: 600;color: #fff;margin-bottom: 80px;}
+.header_left a img{
+    margin-bottom: 50px;
+}
+
+.header_snap{
+    position: absolute;
+    left: -20%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.header_btn a img{
+    margin-right: 20px;
+}
+
+.header_right{}
+.header_right img{}
+/*Header Section css end ===========*/
+
+
+
+
+
+/*Blog Section css Start ===========*/
+section.Blog{
+    padding-bottom: 20px;
+}
+
+.blog_img{
+    width: 100%;
+    position: relative;
+    margin-bottom: 90px;
+    text-align: center;
+}
+.blog_img img{}
+img#blog_bg{
+    position: absolute;
+    left: 43%;
+    top: 53%;
+    transform: translate(-50%, -50%);
+    z-index: -2;
+    width: 100%;
+}
+img#blog_bg2{
+    width: 55%;
+    position: absolute;
+    right: auto;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -2;
+}
+img#blog_bg3{
+    position: absolute;
+    top: 50%;
+    left: 37%;
+    z-index: -2;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.blog_cont{
+    margin-top: 100px;
+}
+.blog_cont .serial{
+}
+/*Blog Section css end ===========*/
+
+
+
+/*Monitoring Section css Start ===========*/
+section.Monitoring{
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 130px;
+}
+.monitor {}
+.monitor_right {
+    position: relative;
+}
+.monitor_right img{
+}
+
+.monitor .serial img{
+    transform: rotate(85deg);
+    top: -95%;
+    left: -1%;
+}
+.rate_img{
+    position: absolute;
+    top: 37%;
+    width: max-content;
+    right: 0;
+}
+.rate_img img{
+    display: inherit;
+    margin-bottom: 60px;
+    box-shadow: 0px 6px 15px #00000021;
+    border-radius: 11px;
+}
+/*Monitoring Section css end ===========*/
+
+
+
+
+/*Payment Section css Start ===========*/
+section.Payment{}
+
+.payment_sec.af_btm:after{left: 48%;bottom: -70px;}
+.payment_sec .serial{margin-left: auto;}
+.payment_sec{}
+
+.payment_img {
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+}
+.payment_img img{
+    width: 100%;
+}
+
+.pay_left {
+    position: absolute;
+    top: 58%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    z-index: -2;
+}
+.pay_left img{}
+
+.pay_right {
+    position: absolute;
+    top: 58%;
+    right: -36%;
+    transform: translate(-50%, -50%);
+    z-index: -2;
+}
+.pay_right img{}
+/*Payment Section css end ===========*/
+
+
+
+
+/*Contact Section css Start ===========*/
+section.Contact{
+    background: no-repeat;
+    background-size: cover;
+    padding: 0 0 50px;
+    background-position-x: center;
+    /* overflow-y: visible; */
+    /* overflow-x: hidden; */
+}
+
+.contact p{
+    padding-right: 38px;
+}
+
+.contact_right {
+    width: 100%;
+    position: relative;
+    height: 100%;
+    z-index: 4;
+}
+
+.contact_phon {
+    width: 80%;
+    position: absolute;
+    top: 202px;
+    left: 73%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+}
+.contact_phon img{
+    width: 100%;
+}
+.contact_phon2 {
+    width: 80%;
+    position: absolute;
+    top: 77.3%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+.contact_phon2 img{
+    width: 100%;
+}
+.contact_pen{
+    position: absolute;
+    top: 71%;
+    left: 112%;
+    transform: translate(-50%, -50%);
+    width: 55%;
+    overflow: hidden;
+}
+.contact_pen img{width: 80%;}
+/*Contact Section css end ===========*/
+
+
+
+
+/*Video_Call Section css Start ===========*/
+section.Video_Call{
+    background: no-repeat;
+    background-size: cover;
+    padding-top: 130px;
+    background-position: center;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.vc_snap{
+    width: 100%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 154%;
+    top: 80%;
+}
+.vc_snap img{
+    width: 100%;
+}
+.vc_snap2 img{width: 30%;margin-top: -20%;}
+.vc_snap2{
+    width: 100%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 172%;
+    top: 135%;
+    display: inline-grid;
+}
+.vc_sec{
+    margin-left: 85px;
+}
+
+.vc_left {
+    position: relative;
+}
+.vc_left img{}
+
+.vc_logo {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 28%;
+    left: 0;
+}
+.vc_logo img{}
+/*Video_Call Section css end ===========*/
+
+
+
+
+/*Schedul Section css Start ===========*/
+section.Schedul {}
+
+.schedul_sec{}
+
+.schedul_right {width: 100%;text-align: center;}
+.schedul_right img{width: max-content;}
+
+.sd_snap1 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 19%;
+    top: 30%;
+    z-index: -2;
+}
+.sd_snap1 img{}
+.sd_snap2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    right: -11%;
+    top: 50%;
+    z-index: -2;
+}
+.sd_snap2 img{
+    /* width: 100%; */
+}
+/*Schedul Section css end ===========*/
+
+
+
+
+/* Section css Start ===========*/
+section.Earning{
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+    overflow: hidden;
+    margin-bottom: 50px;
+    background-position: center;
+}
+
+.earn_sec{
+    margin-top: 100px;
+    position: relative;
+    z-index: 0;
+}
+.earn_sec.af_btm:after{
+    bottom: -65px;
+}
+.earn_left {
+    position: relative;
+    z-index: 0;
+}
+.earn_left img{
+}
+
+.graphs {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: -64%;
+    top: 85%;
+    z-index: -2;
+}
+.graphs img{}
+
+.earn_bg {
+    position: absolute;
+    transform: rotateZ(215deg) translate(-50%, -50%);
+    left: -67%;
+    top: -55%;
+    z-index: -2;
+}
+.earn_bg img{
+    width: 100%;
+}
+
+.earn_snap {
+    position: absolute;
+    transform: translate(-50%, -50%) rotateZ(102deg);
+    top: 10%;
+    left: 79%;
+    z-index: -2;
+    width: 35%;
+}
+.earn_snap img{}
+
+.earn_snap2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 44%;
+    /* left: 102%; */
+    right: -38%;
+    z-index: -2;
+    width: 35%;
+}
+.earn_snap2 img{}
+
+.earn_snap3 {
+    position: absolute;
+    transform: translate(-50%, -50%)  rotateZ(92deg);
+    top: 78%;
+    right: auto;
+    left: 127%;
+    z-index: -2;
+    width: 35%;
+}
+.earn_sec img{width: 100%;}
+/* Section css end ===========*/
+
+
+
+/*Footer Section css Start ===========*/
+footer{
+    position: relative;
+}
+.footer_cont{
+    text-align: center;
+}
+
+.footer_cont p {
+    font-weight: 300;
+    margin-top: 30px;
+    font-size: 24px;
+}
+.footer_cont img{}
+img#f_circle{
+    width: 55%;
+}
+
+.footer_bg {
+    position: absolute;
+    z-index: -2;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 37%;
+}
+.footer_bg img{}
+
+.f_logo{
+    margin-bottom: 30px;
+}
+.f_logo img{}
+
+.f_apps_btn {
+    display: flex;
+    margin: 30px 0 60px;
+}
+.f_apps_btn img{
+    background: black;
+    border-radius: 10px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+/*Footer Section css end ===========*/
+
+
